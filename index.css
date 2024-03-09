@@ -1,0 +1,169 @@
+#tout
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 0px;
+}
+#nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(162, 235, 184)
+    ;
+}
+#nav ul
+{
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#nav ul li a
+{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+#tj
+{
+    padding: 10px;
+    margin-left: 450px;
+    margin-bottom: 0px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+} 
+#tj img
+{
+    bottom: -50px;
+}
+#formleft
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    justify-content: space-between;
+
+}
+#formleft form
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+    height: 50vh;
+    background-color: burlywood ;
+    border-radius: 20px;
+    width:250px;
+    transition: 1s ease;
+
+
+
+}
+.gauche
+{
+    border-radius: 10px;
+    height: 30px;
+    width: 250px ;
+    border: 60px;
+    background:rgb(219, 220, 220);
+
+
+}
+.gauche input
+{
+    color:rgb(74, 66, 66)
+
+}
+
+.gauche1
+{
+    border-radius:20px;
+    height: 25px ;
+    border: 60px;
+    width: 240px;
+
+}
+#formright
+{
+    display: flex;
+    flex-direction: colu
+}
+#formright form
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 50vh;
+    width:250px;
+    background-color: grey ;
+    transition: 1s ease;
+    border-radius: 20px;
+
+
+
+}
+.droite
+{
+    border-radius: 10px;
+    height: 30px;
+    width: 200px ;
+    border: 60px;
+    border-color: red;
+    justify-content: space-around;
+    margin: 10px;
+    margin-top: 50px;
+    background:rgb(219, 220, 220);
+
+}
+.droite1
+{
+    border-radius:20px;
+    height: 25px ;
+    border-color: black;
+    border: 3px;
+    margin-top: 20px;
+
+}
+p 
+{
+    color: red;
+     ;
+}
+#invi h4
+{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: black;
+
+}
+#invi h4 a
+{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    margin-left: 200px;
+
+}
+.gauchev
+{
+    color: lightgreen;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px ;
+    border: 60px;
+    background:rgb(219, 220, 220);
+
+
+}
+
